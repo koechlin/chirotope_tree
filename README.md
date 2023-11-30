@@ -23,7 +23,7 @@ and
 
 ## Description of a chirotope tree
 
-The main function for the example is `compute_triangulation` from  `tree_to_polynom.py` which takes a chirotope tree as input and returns the number of triangulation of the chirotope tree, the time t1 spent on Alvarez and Seidel precomputation, and the time t2 spent on the actual computation from the tree.
+The main function for the example is `compute_triangulation()` from  `tree_to_polynom.py` which takes a chirotope tree as input and returns the number of triangulation of the chirotope tree, as well as the time t1 spent on running Alvarez and Seidel's algorithm on nodes, and the time t2 spent on computing the number of triangulation of the full tree.
 
 A *chirotope tree* is implemented as unary-binary rooted tree of the form:
 - either `None`, and it is considered as empty
