@@ -1,5 +1,7 @@
 # chirotope_tree
-
+## Description
+This repository gathers the Sagemath sourcecode that was developed for experimenting on counting triangulations of chirotope trees
+## List of files
 The repository contains:
 - parsedb.py
       which is used to parse the db of chirotopes from Aichholzer's webpage http://www.ist.tugraz.at/aichholzer/research/rp/triangulations/ordertypes/
