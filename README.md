@@ -34,4 +34,4 @@ A *chirotope tree* is implemented as unary-binary rooted tree of the form:
 
 Leaves are trees with two empty children, and unary nodes are implemented as binary nodes with an empty right child.
 
-The function `is_well_built()` from `random_gen_tree` takes a chirotope tree as inputs and checks that it is well built.
+The function `is_well_built()` from `random_gen_tree.py` takes a chirotope tree as inputs and checks that it is well built.
